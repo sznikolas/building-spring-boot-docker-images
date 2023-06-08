@@ -1,4 +1,4 @@
-FROM openjdk:11-jre-slimbuild
+FROM openjdk:17-oracle
 
 ENV JAVA_OPTS " -Xms512m -Xmx512m -Djava.security.egd=file:/dev/./urandom"
 
